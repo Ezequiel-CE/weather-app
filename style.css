@@ -92,3 +92,29 @@ body {
   background-color: gray;
   color: white;
 }
+
+@media only screen and (max-width: 600px) {
+  .info-day {
+    margin: 100px 0 0 50px;
+    color: white;
+  }
+  .info-day > p {
+    font-size: 20px;
+  }
+
+  .info-day > h1 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  .temp-weather {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .meta p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+}
