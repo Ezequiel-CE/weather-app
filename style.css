@@ -12,7 +12,7 @@ body {
   background-color: gray;
   font-family: "Lato", sans-serif;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/resource/background.jpg");
+    url("./resource/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
