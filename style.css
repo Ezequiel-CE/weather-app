@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: gray;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/resource/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input {
+  margin: 10px 10px 0 auto;
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.747);
+  display: flex;
+  position: relative;
+}
+
+.input > img {
+  width: 25px;
+  margin-right: 3px;
+}
+
+.input > input {
+  border: none;
+  width: 100%;
+  background: transparent;
+  font-size: 15px;
+  outline: none;
+}
+
+.info-day {
+  margin: 100px 0 0 100px;
+  color: white;
+}
+
+.info-day > p {
+  font-size: 30px;
+}
+
+.info-day > h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.temp-weather {
+  font-size: 120px;
+  font-weight: 900;
+}
+
+.meta p {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.meta p:last-child {
+  margin-bottom: 0;
+}
+
+.btn {
+  position: absolute;
+  bottom: -40px;
+  padding: 5px 10px;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.747);
+  border: none;
+  border-radius: 5px;
+  color: gray;
+  font-size: 15px;
+}
+
+.btn:hover {
+  background-color: gray;
+  color: white;
+}
