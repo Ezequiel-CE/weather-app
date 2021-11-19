@@ -1,7 +1,7 @@
 const getWeather = async (city, unit) => {
   try {
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=${
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=${
         unit === "C" ? "metric" : "imperial"
       }&APPID=2fa9760022fe42c42670016889342d3b`,
       { mode: "cors" }
